@@ -11,4 +11,9 @@ module.exports = (app) => {
     .get(todoList.read_a_task)
     .put(todoList.update_a_task)
     .delete(todoList.delete_a_task);
+
+  // in case of there's no route
+  app.use((req, res) => {
+    res.status(404).send({url: req.originalUrl + ' not found'})
+  });
 };
