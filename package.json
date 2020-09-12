@@ -1,0 +1,11 @@
+{
+  "name": "node.rabbit-tester-api",
+  "version": "1.0.0",
+  "description": "Rabbit Tester API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cesar Alcancio",
+  "license": "ISC"
+}
