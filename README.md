@@ -25,3 +25,9 @@ Build Info: {
     }
 }
 
+# MongoDB problems
+To run mongoDB we need to add the param --dbpath, otherwise it will not work because there's no folder /data/db
+
+Example: mongod --dbpath=/Users/cesaralcancio/mongodb/data/db
+
+
